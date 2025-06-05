@@ -1,5 +1,5 @@
 import React from 'react'
-import ApperIcon from '../atoms/ApperIcon'
+import ApperIcon from '../ApperIcon'
 import Text from '../atoms/Text'
 
 const QuestRequirement = ({ skillCheck }) => (
