@@ -1,0 +1,122 @@
+[
+  {
+    "id": "roll_001",
+    "timestamp": "2024-01-20T14:30:00Z",
+    "diceType": "d20",
+    "result": 18,
+    "modifier": 2,
+    "purpose": "Quest: The Goblin Cave Mystery"
+  },
+  {
+    "id": "roll_002",
+    "timestamp": "2024-01-20T14:25:00Z",
+    "diceType": "d12",
+    "result": 7,
+    "modifier": 1,
+    "purpose": "Combat roll"
+  },
+  {
+    "id": "roll_003",
+    "timestamp": "2024-01-20T14:20:00Z",
+    "diceType": "d6",
+    "result": 4,
+    "modifier": 0,
+    "purpose": "Free roll"
+  },
+  {
+    "id": "roll_004",
+    "timestamp": "2024-01-20T14:15:00Z",
+    "diceType": "d20",
+    "result": 1,
+    "modifier": 3,
+    "purpose": "Quest: The Merchant's Dilemma"
+  },
+  {
+    "id": "roll_005",
+    "timestamp": "2024-01-20T14:10:00Z",
+    "diceType": "d10",
+    "result": 9,
+    "modifier": 1,
+    "purpose": "Skill check"
+  },
+  {
+    "id": "roll_006",
+    "timestamp": "2024-01-20T14:05:00Z",
+    "diceType": "d8",
+    "result": 6,
+    "modifier": 2,
+    "purpose": "Quest: The Ancient Library's Secret"
+  },
+  {
+    "id": "roll_007",
+    "timestamp": "2024-01-20T14:00:00Z",
+    "diceType": "d20",
+    "result": 20,
+    "modifier": 0,
+    "purpose": "Critical moment"
+  },
+  {
+    "id": "roll_008",
+    "timestamp": "2024-01-20T13:55:00Z",
+    "diceType": "d4",
+    "result": 3,
+    "modifier": 1,
+    "purpose": "Random encounter"
+  },
+  {
+    "id": "roll_009",
+    "timestamp": "2024-01-20T13:50:00Z",
+    "diceType": "d12",
+    "result": 11,
+    "modifier": 2,
+    "purpose": "Quest: The Dragon's Riddle"
+  },
+  {
+    "id": "roll_010",
+    "timestamp": "2024-01-20T13:45:00Z",
+    "diceType": "d6",
+    "result": 5,
+    "modifier": 0,
+    "purpose": "Exploration roll"
+  },
+  {
+    "id": "roll_011",
+    "timestamp": "2024-01-20T13:40:00Z",
+    "diceType": "d20",
+    "result": 14,
+    "modifier": 3,
+    "purpose": "Quest: The Cursed Well"
+  },
+  {
+    "id": "roll_012",
+    "timestamp": "2024-01-20T13:35:00Z",
+    "diceType": "d10",
+    "result": 2,
+    "modifier": 1,
+    "purpose": "Stealth check"
+  },
+  {
+    "id": "roll_013",
+    "timestamp": "2024-01-20T13:30:00Z",
+    "diceType": "d8",
+    "result": 8,
+    "modifier": 2,
+    "purpose": "Quest: The Lost Caravan"
+  },
+  {
+    "id": "roll_014",
+    "timestamp": "2024-01-20T13:25:00Z",
+    "diceType": "d20",
+    "result": 16,
+    "modifier": 1,
+    "purpose": "Initiative roll"
+  },
+  {
+    "id": "roll_015",
+    "timestamp": "2024-01-20T13:20:00Z",
+    "diceType": "d12",
+    "result": 10,
+    "modifier": 0,
+    "purpose": "Quest: The Moonlit Duel"
+  }
+]

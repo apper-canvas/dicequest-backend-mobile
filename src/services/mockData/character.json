@@ -1,0 +1,41 @@
+[
+  {
+    "id": "char_001",
+    "name": "Aragorn the Bold",
+    "level": 3,
+    "experience": 275,
+    "stats": {
+      "strength": 14,
+      "dexterity": 12,
+      "intelligence": 11
+    },
+    "currentQuestId": "quest_001",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "char_002",
+    "name": "Luna Shadowbane",
+    "level": 5,
+    "experience": 480,
+    "stats": {
+      "strength": 10,
+      "dexterity": 16,
+      "intelligence": 15
+    },
+    "currentQuestId": "quest_003",
+    "createdAt": "2024-01-10T14:20:00Z"
+  },
+  {
+    "id": "char_003",
+    "name": "Thorin Ironforge",
+    "level": 2,
+    "experience": 150,
+    "stats": {
+      "strength": 15,
+      "dexterity": 8,
+      "intelligence": 13
+    },
+    "currentQuestId": "quest_002",
+    "createdAt": "2024-01-20T09:15:00Z"
+  }
+]

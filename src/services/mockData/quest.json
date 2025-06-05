@@ -1,0 +1,202 @@
+[
+  {
+    "id": "quest_001",
+    "title": "The Goblin Cave Mystery",
+    "description": "Strange sounds echo from the abandoned cave near the village. Local farmers report missing livestock and eerie green lights dancing in the darkness.",
+    "narrative": [
+      "You approach the mouth of the cave, torch in hand. The air grows cold as you peer into the shadows. A faint chittering sound echoes from within.",
+      "Deeper in the cave, you discover claw marks on the walls and small bones scattered across the floor. Something is definitely living here.",
+      "A pair of glowing red eyes appears in the darkness ahead. A goblin shrieks and charges at you with a rusty dagger!"
+    ],
+    "requirements": {
+      "skillCheck": 12,
+      "primaryStat": "dexterity"
+    },
+    "rewards": {
+      "experience": 75,
+      "items": ["Goblin Dagger", "Cave Map"]
+    },
+    "difficulty": "Easy",
+    "estimatedTime": "15 minutes"
+  },
+  {
+    "id": "quest_002",
+    "title": "The Merchant's Dilemma",
+    "description": "A traveling merchant has lost his most precious cargo - a chest of rare gems - to bandits on the forest road. He offers a handsome reward for their safe return.",
+    "narrative": [
+      "Following the merchant's directions, you find the bandit camp hidden among ancient oak trees. Smoke rises from a small campfire.",
+      "You spot three bandits arguing over the division of stolen goods. The gem chest sits unguarded near their tent.",
+      "One of the bandits notices your approach. 'Another fool seeking easy coin!' he snarls, drawing his sword."
+    ],
+    "requirements": {
+      "skillCheck": 14,
+      "primaryStat": "strength"
+    },
+    "rewards": {
+      "experience": 100,
+      "items": ["Bandit's Sword", "Rare Gems", "Forest Guide"]
+    },
+    "difficulty": "Medium",
+    "estimatedTime": "20 minutes"
+  },
+  {
+    "id": "quest_003",
+    "title": "The Ancient Library's Secret",
+    "description": "The village scholar believes an ancient tome hidden in the ruined library contains the key to stopping the spreading curse that plagues the nearby crops.",
+    "narrative": [
+      "The library stands in ruins, its once-grand columns now crumbling. Vines have claimed the walls, and an unnatural silence hangs in the air.",
+      "Inside, you navigate through collapsed shelves and scattered scrolls. A faint magical aura emanates from the restricted section.",
+      "As you reach for the ancient tome, spectral guardians materialize from the shadows. 'Who dares disturb the sacred knowledge?' they whisper."
+    ],
+    "requirements": {
+      "skillCheck": 16,
+      "primaryStat": "intelligence"
+    },
+    "rewards": {
+      "experience": 125,
+      "items": ["Ancient Tome", "Scholar's Pendant", "Wisdom Scroll"]
+    },
+    "difficulty": "Hard",
+    "estimatedTime": "25 minutes"
+  },
+  {
+    "id": "quest_004",
+    "title": "The Dragon's Riddle",
+    "description": "An ancient dragon guards a treasure hoard but offers a challenge: solve its riddle correctly, and claim a single item. Fail, and face its wrath.",
+    "narrative": [
+      "The dragon's lair gleams with countless treasures. The massive wyrm regards you with ancient eyes that have seen millennia pass.",
+      "'Brave mortal,' the dragon rumbles, 'I offer you a choice. Answer my riddle correctly, and choose one treasure. Fail, and become part of my collection.'",
+      "The dragon's eyes narrow as it awaits your answer. The very air crackles with magical energy, and you sense this moment will determine your fate."
+    ],
+    "requirements": {
+      "skillCheck": 18,
+      "primaryStat": "intelligence"
+    },
+    "rewards": {
+      "experience": 200,
+      "items": ["Dragon Scale", "Ancient Artifact", "Wisdom of Ages"]
+    },
+    "difficulty": "Legendary",
+    "estimatedTime": "30 minutes"
+  },
+  {
+    "id": "quest_005",
+    "title": "The Cursed Well",
+    "description": "The village well has been poisoned by dark magic. The water turns black at midnight, and strange whispers can be heard from its depths.",
+    "narrative": [
+      "You arrive at the well as the sun sets. The stone structure looks innocent enough, but you can feel malevolent energy emanating from below.",
+      "Peering into the dark water, you see your reflection waver and distort. Something moves in the depths - something that shouldn't be there.",
+      "A shadow begins to rise from the water, taking the form of a wraith. 'You cannot cleanse what has been claimed!' it shrieks."
+    ],
+    "requirements": {
+      "skillCheck": 13,
+      "primaryStat": "dexterity"
+    },
+    "rewards": {
+      "experience": 90,
+      "items": ["Holy Water", "Purification Crystal"]
+    },
+    "difficulty": "Medium",
+    "estimatedTime": "18 minutes"
+  },
+  {
+    "id": "quest_006",
+    "title": "The Lost Caravan",
+    "description": "A merchant caravan disappeared during a sandstorm three days ago. Their families fear the worst, but desert nomads report seeing lights near the old ruins.",
+    "narrative": [
+      "Following the caravan tracks, you reach the ancient ruins buried half in sand. The wind howls through broken archways.",
+      "Inside the ruins, you find the merchants' goods scattered but no signs of struggle. Strange symbols glow faintly on the walls.",
+      "A voice echoes from deeper in the ruins: 'Welcome, traveler. We have been expecting you.' The merchants emerge, but their eyes glow with an otherworldly light."
+    ],
+    "requirements": {
+      "skillCheck": 15,
+      "primaryStat": "strength"
+    },
+    "rewards": {
+      "experience": 110,
+      "items": ["Desert Compass", "Ancient Relic", "Nomad's Cloak"]
+    },
+    "difficulty": "Medium",
+    "estimatedTime": "22 minutes"
+  },
+  {
+    "id": "quest_007",
+    "title": "The Moonlit Duel",
+    "description": "A mysterious stranger challenges the village's greatest warrior to a duel under the full moon. The challenger claims to be testing the realm's defenders.",
+    "narrative": [
+      "Under the silver moonlight, you face your opponent in the village square. They wear no armor, carry only a simple blade, yet move with inhuman grace.",
+      "The stranger's first strike comes like lightning. Their skill is beyond mortal limits, and you realize this is no ordinary challenge.",
+      "'Impressive,' the stranger says as steel rings against steel. 'But can you match the fury of the storm?' Their blade begins to glow with inner fire."
+    ],
+    "requirements": {
+      "skillCheck": 17,
+      "primaryStat": "dexterity"
+    },
+    "rewards": {
+      "experience": 150,
+      "items": ["Moonblade", "Warrior's Honor", "Combat Manual"]
+    },
+    "difficulty": "Hard",
+    "estimatedTime": "25 minutes"
+  },
+  {
+    "id": "quest_008",
+    "title": "The Alchemist's Emergency",
+    "description": "The village alchemist's experiment has gone horribly wrong. His laboratory is filled with toxic fumes, and he's trapped inside with a dangerous concoction about to explode.",
+    "narrative": [
+      "Green smoke billows from the alchemist's tower. Through the windows, you can see beakers bubbling violently and strange lights flashing.",
+      "Inside the laboratory, you find the alchemist unconscious near an unstable magical apparatus. The device pulses with dangerous energy.",
+      "The machine begins to overload! You have moments to either stabilize the magical matrix or evacuate the alchemist before everything explodes."
+    ],
+    "requirements": {
+      "skillCheck": 14,
+      "primaryStat": "intelligence"
+    },
+    "rewards": {
+      "experience": 95,
+      "items": ["Alchemist's Kit", "Healing Potion", "Knowledge Tome"]
+    },
+    "difficulty": "Medium",
+    "estimatedTime": "20 minutes"
+  },
+  {
+    "id": "quest_009",
+    "title": "The Singing Stones",
+    "description": "Ancient standing stones have begun to emit haunting melodies at dawn and dusk. The village elders believe they're trying to communicate an urgent message.",
+    "narrative": [
+      "As the sun rises, the stone circle begins its ethereal song. The melody is both beautiful and melancholy, speaking of ancient sorrows.",
+      "Touching one of the stones, you experience visions of the past - a great battle, a terrible sacrifice, and a warning left for future generations.",
+      "The stones' song reaches a crescendo. The message becomes clear: 'The sealed evil stirs. The guardian's watch must not fail. Seek the forgotten key.'"
+    ],
+    "requirements": {
+      "skillCheck": 12,
+      "primaryStat": "intelligence"
+    },
+    "rewards": {
+      "experience": 85,
+      "items": ["Stone Fragment", "Ancient Melody", "Vision Crystal"]
+    },
+    "difficulty": "Easy",
+    "estimatedTime": "15 minutes"
+  },
+  {
+    "id": "quest_010",
+    "title": "The Shadow Market",
+    "description": "Rumors speak of a secret market that appears only during the new moon, where forbidden knowledge and dangerous artifacts are traded by creatures of the night.",
+    "narrative": [
+      "Following whispered directions, you find the market in an abandoned district. Hooded figures trade in shadows, their goods glowing with dark energy.",
+      "A vampire merchant offers you a choice of cursed items. 'Each comes with power,' she hisses, 'but also with a price. Choose wisely, mortal.'",
+      "As dawn approaches, the market begins to fade. You must complete your transaction before the shadows flee from the coming light."
+    ],
+    "requirements": {
+      "skillCheck": 16,
+      "primaryStat": "dexterity"
+    },
+    "rewards": {
+      "experience": 140,
+      "items": ["Shadow Cloak", "Night Vision Amulet", "Forbidden Scroll"]
+    },
+    "difficulty": "Hard",
+    "estimatedTime": "28 minutes"
+  }
+]

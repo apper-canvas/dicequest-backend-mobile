@@ -1,0 +1,146 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(135deg, #2C1810 0%, #3E2723 100%);
+    min-height: 100vh;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .parchment-texture {
+    background: linear-gradient(45deg, #F4E4C1 0%, #E8D7B3 100%);
+    position: relative;
+  }
+
+  .parchment-texture::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      radial-gradient(circle at 20% 80%, rgba(120, 119, 108, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(120, 119, 108, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, rgba(120, 119, 108, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .magical-border {
+    position: relative;
+    border: 2px solid transparent;
+    background: linear-gradient(45deg, #8B4513, #A0522D) padding-box,
+                linear-gradient(45deg, #FFD700, #DAA520, #FFD700) border-box;
+  }
+
+  .dice-face {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 2px solid #6c757d;
+    box-shadow: 
+      inset 0 2px 5px rgba(255, 255, 255, 0.3),
+      0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .quest-card {
+    background: linear-gradient(45deg, #F4E4C1 0%, #E8D7B3 100%);
+    border: 2px solid #8B4513;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .quest-card::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #FFD700, #DAA520, #FFD700);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .quest-card:hover::before {
+    opacity: 1;
+  }
+
+  .stat-block {
+    background: rgba(244, 228, 193, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .glow-gold {
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+}
+
+/* Custom scrollbar for quest panels */
+.quest-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.quest-scroll::-webkit-scrollbar-track {
+  background: rgba(139, 69, 19, 0.2);
+  border-radius: 4px;
+}
+
+.quest-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 215, 0, 0.5);
+  border-radius: 4px;
+}
+
+.quest-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 215, 0, 0.7);
+}
+
+/* Particle animation */
+@keyframes float-particle {
+  0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
+  25% { transform: translateY(-20px) rotate(90deg); opacity: 0.7; }
+  50% { transform: translateY(-10px) rotate(180deg); opacity: 1; }
+  75% { transform: translateY(-15px) rotate(270deg); opacity: 0.7; }
+}
+
+.particle {
+  animation: float-particle 4s ease-in-out infinite;
+}
