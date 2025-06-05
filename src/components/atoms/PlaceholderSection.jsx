@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import ApperIcon from './ApperIcon'
+import ApperIcon from '../ApperIcon'
 
 const PlaceholderSection = ({ title, description, icon }) => (
   <motion.div
