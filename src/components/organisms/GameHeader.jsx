@@ -1,9 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import ApperIcon from '../atoms/ApperIcon'
+import ApperIcon from '../ApperIcon'
 import NavButton from '../atoms/NavButton'
 import Text from '../atoms/Text'
-
 const GameHeader = ({ activeTab, setActiveTab, navItems }) => (
   <header className="relative z-10 bg-gradient-to-r from-primary-dark/90 to-primary-DEFAULT/90 backdrop-blur-sm border-b-2 border-secondary-DEFAULT/30">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
