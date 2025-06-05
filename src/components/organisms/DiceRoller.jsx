@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { toast } from 'react-toastify'
-import ApperIcon from '../atoms/ApperIcon'
+import ApperIcon from '../ApperIcon'
 import Text from '../atoms/Text'
 import DiceSelector from '../molecules/DiceSelector'
 import ModifierInput from '../molecules/ModifierInput'
